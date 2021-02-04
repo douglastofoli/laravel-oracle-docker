@@ -17,8 +17,6 @@ This docker image contains:
 -   SQLPLUS 19.10
 -   Nginx 1.18
 
-_To list modules PHP run_ `php -m`
-
 ### Run Docker project
 
 You need docker and docker-compose to run this project.
@@ -33,6 +31,8 @@ cp .env.example .env
 php artisan key:generate
 chmod 777 -R storage bootstrap public
 ```
+
+_To list modules PHP run `php -m` inside container_
 
 ## About Laravel
 
