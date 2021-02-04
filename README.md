@@ -7,7 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+### Description
+
+This docker image contains:
+
+-   Ubuntu 20.04
+-   Laravel 8.26.1
+-   PHP 7.4
+-   SQLPLUS 19.10
+-   Nginx 1.18
+
+_To list modules PHP run_ `php -m`
+
 ### Run Docker project
+
+You need docker and docker-compose to run this project.
 
 ```shell
 git clone https://github.com/douglastofoli/laravel-oracle-docker
