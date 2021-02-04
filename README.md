@@ -32,7 +32,7 @@ php artisan key:generate
 chmod 777 -R storage bootstrap public
 ```
 
-_To list modules PHP run `php -m` inside container_
+_To list modules PHP available run `php -m` inside container_
 
 ## About Laravel
 
